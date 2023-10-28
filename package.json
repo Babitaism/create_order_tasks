@@ -1,0 +1,32 @@
+{
+  "name": "backendforvideocall",
+  "version": "1.0.0",
+  "description": "voxxcall",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "npx knex migrate:latest --knexfile db/knexfile.js",
+    "test": "na",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Babitaism/backendvideocall.git"
+  },
+  "keywords": [
+    "voxxcall"
+  ],
+  "author": "babita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Babitaism/backendvideocall/issues"
+  },
+  "homepage": "https://github.com/Babitaism/backendvideocall#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^3.0.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
